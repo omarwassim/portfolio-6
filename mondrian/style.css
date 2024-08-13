@@ -1,0 +1,264 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+.container
+{
+    width: 1137px;
+    height: 690px;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 56px 12px 130px 71px 71px 85px 85px 85px 85px 71px 71px 130px 12px 56px  ;
+    grid-template-rows:60px 60px 60px 60px 60px 60px 60px 60px 60px 60px ;
+    gap: 9px;
+    border: 20px solid black;
+}
+.w1
+{
+    background-color: white;
+    grid-column: span 2;
+}
+.w2
+{
+    background-color: white;
+    grid-column: span 2;
+}
+.y1
+{
+    background-color: yellow;
+    grid-column: span 2;
+}
+.b1
+{
+    background-color: #004592;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.y2
+{
+    background-color: yellow;
+    grid-column: span 1;
+}
+.bl1
+{
+    background-color: black;
+    grid-column: span 1;
+}
+.w3
+{
+    background-color: white;
+    grid-column: span 4;
+}
+.w4
+{
+    background-color: white;
+    grid-row: span 2;
+}
+.r1
+{
+    background-color: red;
+    grid-column:span 3 ;
+    grid-row: span 4;
+}
+.y3
+{
+    background-color:yellow ;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.y4
+{
+    background-color: yellow;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.w5
+{
+    background-color: white;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.y5
+{
+    background-color: yellow;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.r2
+{   
+    background-color: red;
+    grid-column: span 2;
+    grid-row: span 2 ;
+}
+.bl2
+{
+    background-color:black ;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.w6
+{
+    background-color:white ;
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.w7
+{
+    background-color:white ;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.w7
+{
+    background-color:white ;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.w8
+{
+    background-color:white ;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.bl3
+{
+    background-color:black ;
+    grid-row: span 2;
+    grid-column: span 3;
+}
+.w9
+{
+    background-color: white;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.w8
+{
+    background-color:white ;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.w10
+{
+    background-color:white ;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.bl4
+{
+    background-color: black;
+    grid-row: span 2;
+    grid-column:span 2 ;
+}
+.w8
+{
+    background-color:white ;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.w9
+{
+    background-color: white;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.w7
+{
+    background-color:white ;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.w7
+{
+    background-color:white ;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.b2
+{
+    background-color: #004592;
+    grid-column:span 4 ;
+    grid-row: span 4;
+}
+.y6
+{
+    background-color: yellow;
+    grid-column:span ;
+    grid-row:span 3;
+}
+.w11
+{
+    background-color:white ;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.b3
+{
+    background-color: #004592;
+    grid-row: span 2 ;
+    grid-column:span 2 ;
+}
+.w12
+{
+    background-color:white ;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.bl5
+{
+    background-color: black;
+    grid-row: span 1;
+    grid-column:span 1 ;
+}
+.y7
+{
+    background-color: yellow;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.w13
+{
+    background-color: white;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.y8
+{
+    background-color: yellow;
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.r3
+{
+    background-color: red;
+    grid-column: span 2;
+    grid-row: span 4;
+}
+.w14
+{
+    background-color: white;
+    grid-row: span 2;
+    grid-column: span 3;
+}
+.w15
+{
+    background-color: white;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.bl6
+{
+    background-color: black;
+    grid-row: span 2;
+    grid-column:span 1 ;
+}
+.w2
+{
+    background-color: white;
+    grid-column: span ;
+    grid-row: span 1;
+}

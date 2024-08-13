@@ -1,0 +1,250 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.main-content .header
+{
+    align-items: center;
+}
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color:  #13293b ;
+    color: #ffffff;
+    width: 300px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.profile-picture {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.contact-info h2, .skills h2, .languages h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 8px;
+}
+
+.contact-info p, .skills ul, .languages .language {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p i {
+    margin-right: 10px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills ul li {
+    margin: 10px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-bar {
+    background-color: #ffffff;
+    width: 50%;
+    height: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-bar span {
+    display: block;
+    height: 100%;
+    background-color: #ffbb33;
+}
+
+.languages .language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.language-dots {
+    display: flex;
+    gap: 4px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.filled {
+    background-color: #ffbb33;
+}
+
+.main-content {
+    width: calc(100% - 300px);
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #1c3b57;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 20px;
+    color: #666;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.summary, .projects, .education {
+    margin-top: 30px;
+}
+
+.summary h3, .projects h3, .education h3 {
+    font-size: 22px;
+    color: #1c3b57;
+    border-bottom: 2px solid #1c3b57;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.summary ul {
+    list-style-type: disc;
+    margin-right: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+.project-item h4 {
+    font-size: 18px;
+    color: #1c3b57;
+    margin: 5px 0;
+}
+
+.project-item p, .education p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.education strong {
+    font-size: 18px;
+    color: #1c3b57;
+    display: block;
+    margin-bottom: 5px;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        max-width: none;
+        padding: 20px;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header h2 {
+        font-size: 18px;
+    }
+
+    .summary h3, .projects h3, .education h3 {
+        font-size: 20px;
+    }
+
+    .summary ul, .project-item p, .education p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        padding: 15px;
+    }
+
+    .profile-picture img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .contact-info h2, .skills h2, .languages h2 {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .contact-info p, .skills ul, .languages .language {
+        font-size: 12px;
+    }
+
+    .skill-bar {
+        width: 60%;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header h2 {
+        font-size: 16px;
+    }
+
+    .summary h3, .projects h3, .education h3 {
+        font-size: 18px;
+    }
+
+    .summary ul, .project-item p, .education p {
+        font-size: 12px;
+    }
+}
